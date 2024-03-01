@@ -6,7 +6,7 @@ $('.page-scroll').on('click', function(e){
 	// tangkap elemen ybs
 	var elemenTujuan = $(tujuan);
 
-	// pindahkan scroll
+	// pindahkan scrollll
 	$('body').animate({
 		scrollTop: elemenTujuan.offset().top - 50
 	}, 1250, 'easeInOutExpo');
